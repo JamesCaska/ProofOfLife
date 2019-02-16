@@ -1,0 +1,71 @@
+V "GNAT Lib v2013"
+P SS
+
+RN
+RV NO_IO
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U proofoflife%b		proofoflife.adb		be3b6656 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W proofoflifevbb%s	proofoflifevbb.ads	proofoflifevbb.ali
+
+U proofoflife%s		proofoflife.ads		b47e51c7 EE OO PK
+W proofoflifevbb%s	proofoflifevbb.ads	proofoflifevbb.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130418144330 945b3b84
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130418144328 17ffb949
+D a-tags.ads		20130418144328 9b277dca
+D a-tags.adb		20130418144330 b0a8c06b
+D a-textio.ads		20130417131022 386df5d4
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D proofoflife.ads	20190215233306 5a762110
+D proofoflife.adb	20190216000400 3228c245
+D proofoflifevbb.ads	20190215225518 ee0870d7
+D system.ads		20130418144330 a2623771
+D s-crtl.ads		20130417131028 dfcfca61
+D s-ficobl.ads		20130417131028 55a71d43
+D s-htable.ads		20130417131030 83a84e0e
+D s-parame.ads		20130418144328 308761e2
+D s-secsta.ads		20130418144328 6bfcc8fe
+D s-soflin.ads		20130517124524 d599fe91
+D s-stache.ads		20130417131032 596fc1b4
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130418144328 8ddd6f60
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D s-wchstw.ads		20130417131034 2d112c01
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+263U14*Put_Line 11|47s13 49s13 51s13 53s13 65s10
+X 10 proofoflife.ads
+4K9*ProofOfLife 16l5 16e16 11|4b14 74l5 74t16
+6U14*ProofOfLife 6>26 6>71 11|43b14 56l8 56t19 69s10
+6a26 Samples{12|3A9} 11|43b26 46r27 48r36 50r33
+6i71 LastSampleIndex{integer} 11|43b70 46r36 48r45 50r41
+8V13*IsNoKeyAttack{boolean} 8>27 8>71 11|6b13 22l8 22t21 46s13
+8a27 Samples{12|3A9} 11|6b27 12r13 14r16
+8i71 LastSampleIndex{integer} 11|6b71 10r10
+10V13*IsKeyScanningAttack{boolean} 10>33 10>77 11|24b13 31l8 31t27 48s16
+10a33 Samples{12|3A9} 11|24b33
+10i77 LastSampleIndex{integer} 11|24b77
+12V13*UniqueKeyPresses{integer} 12>30 12>74 11|33b13 40l8 40t24 50s16
+12a30 Samples{12|3A9} 11|33b30
+12i74 LastSampleIndex{integer} 11|33b74
+14U14*WaitForEvent 11|58b14 72l8 72t20
+X 11 proofoflife.adb
+60a7 Samples{12|3A9} 67r47 69r22
+61i7 N{integer} 67m10 69r31
+X 12 proofoflifevbb.ads
+1K9*ProofOfLifeVBB 10|1w6 6r39 8r40 10r46 12r43 11|2w6 6r40 24r46 33r43 43r39
+. 60r17 67r15 12|7e19
+3A9*KeySampleData(integer)<integer> 10|6r54 8r55 10r61 12r58 11|6r55 24r61
+. 33r58 43r54 60r32
+5V13*CaptureKeyEvents{integer} 11|67s30
+
